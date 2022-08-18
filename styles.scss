@@ -21,6 +21,9 @@ body {
   align-items: center;
   background-image: url(/images/pattern-background-mobile.svg);
   font-family: "Red Hat Display", sans-serif;
+ background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #e6ecfb;
 }
 
 /* Main and Stuff */
