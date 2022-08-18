@@ -1,0 +1,210 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+/* Fonts and Stuff */
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap");
+
+/* Body */
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 1.5em;
+  align-items: center;
+  background-image: url(/images/pattern-background-mobile.svg);
+  font-family: "Red Hat Display", sans-serif;
+}
+
+/* Main and Stuff */
+.container {
+  display: grid;
+  width: 500px;
+}
+
+/* Illustration and Stuff */
+.illustration {
+  width: 100%;
+  height: auto;
+  border-radius: 1.5em 1.5em 0 0;
+}
+
+/* Card (General) */
+.card {
+  text-align: center;
+  width: 100%;
+  height: 60vh;
+  background-color: white;
+  border-radius: 0 0 1.5em 1.5em;
+}
+
+/* Order Summary */
+.order-summary {
+  padding: 2em 2em 1.5em;
+  text-align: center;
+}
+
+/* Headings and Stuff */
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 0.5em;
+  color: hsl(223, 47%, 23%);
+}
+
+.text {
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.5em;
+  color: hsl(224, 20%, 81%);
+}
+
+/* Annual Payment */
+.annual-payment {
+  height: 20%;
+  display: flex;
+  align-items: center;
+  padding: 0 1em 0 1em;
+  background-color: hsl(225, 100%, 98%);
+  margin: 0 1.5em 0 1.5em;
+  border-radius: 0.5em;
+}
+
+.annual-price {
+  margin-left: 1em;
+  color: hsl(224deg, 20%, 81%);
+}
+
+strong {
+  color: hsl(223, 47%, 23%);
+}
+
+.change {
+  margin-left: 2em;
+  font-weight: 900;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  cursor: pointer;
+}
+
+.change:hover {
+  color: #6c6ab1;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+/* Button */
+
+.button-and-stuff {
+  height: 20%;
+  margin: 2em 1.5em 0 1.5em;
+  text-align: center;
+}
+
+button {
+  all: unset;
+  width: 100%;
+  height: 3em;
+  border-radius: 0.5em;
+  font-weight: 700;
+  text-align: center;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 0px 10px 10px 5px #eeebeb;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #6c6ab1;
+  transition: 0.5s;
+}
+
+.cancel-order {
+  color: hsl(224, 20%, 81%);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.cancel-order:hover {
+  color: hsl(223, 47%, 23%);
+
+  transition: 0.5s;
+}
+
+/* Media and Breaking Points */
+@media (min-width: 600px) {
+  body {
+    padding: 5em;
+  }
+}
+
+@media (min-width: 1023px) {
+  body {
+    padding: 30em 18em 30em 18em;
+  }
+  .card {
+    height: 25em;
+    padding: 2em;
+  }
+  .order-summary {
+    padding: 0 1em 1em 1em;
+  }
+  .change {
+    margin-left: auto;
+  }
+  .button-and-stuff {
+    margin: 2em 1.5em 1em 1.5em;
+  }
+}
+
+@media (min-width: 1600px) {
+  body {
+    padding: 30em 47em 30em 47em;
+    background-image: url(/images/pattern-background-desktop.svg);
+  }
+  .card {
+    height: 25em;
+    padding: 2em;
+  }
+  .order-summary {
+    padding: 0 1em 1em 1em;
+  }
+  .change {
+    margin-left: auto;
+  }
+  .cancel-order {
+    margin-top: 2em;
+  }
+}
+
+@media (min-width: 400px) {
+  .change {
+    margin-left: auto;
+  }
+}
+
+/*
+display: grid;
+  grid-template-areas: "one two three";
+
+.music-icon {
+  grid-area: one;
+}
+
+.plan {
+  grid-area: two;
+}
+
+.change {
+  grid-area: three;
+}
+*/
