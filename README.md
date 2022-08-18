@@ -72,7 +72,7 @@ Overall, I really dig the Frontend Mentor website. It's hands down the place I l
 - Fitness and Health YouTube Channel — [Peteonthebeat] (https://www.youtube.com/peteonthebeat1)
 - Website - [Add your name here](https://www.peteonthebeat.com)
 - Frontend Mentor - [@peteonthebeat](https://www.frontendmentor.io/profile/peteonthebeat)
-- Twitter - [@yourusername](https://www.twitter.com/peteonthebeat1)
+- Twitter - [@peteonthebeat1](https://www.twitter.com/peteonthebeat1)
 
 ## Acknowledgments
 
