@@ -28,11 +28,11 @@ Users should be able to:
 
 ### Screenshot
 
-![Order Summary Component Screen Shot.png]
+![](./Order Summary Component Screen Shot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/Peteonthebeat/Order-Summary-Component.git]
 - Live Site URL: [https://peteonthebeat.github.io/Order-Summary-Component/]
 
 ## My process
@@ -72,7 +72,7 @@ Overall, I really dig the Frontend Mentor website. It's hands down the place I l
 - Fitness and Health YouTube Channel — [Peteonthebeat] (https://www.youtube.com/peteonthebeat1)
 - Website - [Add your name here](https://www.peteonthebeat.com)
 - Frontend Mentor - [@peteonthebeat](https://www.frontendmentor.io/profile/peteonthebeat)
-- Twitter - [@peteonthebeat1](https://www.twitter.com/peteonthebeat1)
+- Twitter - [@yourusername](https://www.twitter.com/peteonthebeat1)
 
 ## Acknowledgments
 
