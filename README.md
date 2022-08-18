@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./Order Summary Component Screen Shot.png)
+![Order Summary Component Screen Shot.png]
 
 ### Links
 
